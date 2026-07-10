@@ -28,3 +28,8 @@ table.gfc-news-item a {
 	color: orange;
 	text-decoration: underline;
 }
+
+/* Fix the iframe width for the Greengate Pass*/
+#gg-pass-frame {
+	max-width: 315px;
+}
