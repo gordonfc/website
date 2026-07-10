@@ -30,6 +30,6 @@ table.gfc-news-item a {
 }
 
 /* Fix the iframe width for the Greengate Pass*/
-#gg-pass-frame {
+#pnlSections > .contentSection > .contentFragment #gg-pass-frame {
 	max-width: 315px;
 }
