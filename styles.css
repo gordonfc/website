@@ -17,7 +17,7 @@ table.gfc-table-stripes tr:nth-child(odd) {
 }
 #pnlSections>.contentSection>.contentFragment table.gfc-sponsor-item:not(.noFrills)>tbody>tr>:first-child, 
 #pnlSections>.contentSection>.contentFragment table.gfc-sponsor-item:not(.noFrills)>thead>tr>:first-child {
-    width: 200px; /* cell for the thumbnail image */
+    width: 300px; /* cell for the thumbnail image */
 }
 table.gfc-news-item {
     font-style: italic; /* this is for the date but applied to everything */
