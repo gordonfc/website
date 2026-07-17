@@ -19,13 +19,17 @@ table.gfc-table-stripes tr:nth-child(odd) {
 #pnlSections>.contentSection>.contentFragment table.gfc-sponsor-item:not(.noFrills)>thead>tr>:first-child {
     width: 300px; /* cell for the thumbnail image */
 }
+/* news only */
 table.gfc-news-item {
     font-style: italic; /* this is for the date but applied to everything */
 }
 table.gfc-news-item a {
     font-style: normal; /* this is to fix everything and leave the date italic */
 }
-
+/* sponsors only */
+table.gfc-sponsor-item td {
+    vertical-align:top; /* seems to be middle otherwise */
+}
 /* improve the link styles */
 
 #main a:hover,
