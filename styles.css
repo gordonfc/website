@@ -28,9 +28,14 @@ table.gfc-news-item {
 table.gfc-news-item a {
     font-style: normal; /* this is to fix everything and leave the date italic */
 }
-/* sponsors only */
-table.gfc-sponsor-item td {
+/* sponsors and secret tables only */
+table.gfc-sponsor-item td,
+table.gfc-secret-table-item td {
     vertical-align:top; /* seems to be middle otherwise */
+}
+/* gg pass in gg page only */
+table.gfc-secret-table-item td.gfc-gg-pass {
+    width:360px;
 }
 /* improve the link styles */
 
