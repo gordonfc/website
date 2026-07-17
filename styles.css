@@ -11,6 +11,10 @@ table.gfc-table-stripes tr:nth-child(odd) {
 #pnlSections>.contentSection>.contentFragment table.gfc-sponsor-item:not(.noFrills)>thead>tr>* {
     border:none; /* removed the grey border */
 }
+#pnlSections>.contentSection>.contentFragment table.gfc-sponsor-item:not(.noFrills)>tbody>tr>*, 
+#pnlSections>.contentSection>.contentFragment table.gfc-sponsor-item:not(.noFrills)>thead>tr>* {
+    border-bottom: 1px dotted #ccc; /* splits the sponsors */
+}
 #pnlSections>.contentSection>.contentFragment table.gfc-news-item:not(.noFrills)>tbody>tr>:first-child, 
 #pnlSections>.contentSection>.contentFragment table.gfc-news-item:not(.noFrills)>thead>tr>:first-child {
     width: 150px; /* cell for the thumbnail image */
@@ -29,9 +33,6 @@ table.gfc-news-item a {
 /* sponsors only */
 table.gfc-sponsor-item td {
     vertical-align:top; /* seems to be middle otherwise */
-}
-table.gfc-sponsor-item h3 {
-    margin-top: 2em; /* aligns better with logos, many have white space in them */
 }
 /* improve the link styles */
 
