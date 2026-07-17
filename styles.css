@@ -28,8 +28,10 @@ table.gfc-news-item a {
 }
 /* sponsors only */
 table.gfc-sponsor-item td {
-	padding-top:20px;
     vertical-align:top; /* seems to be middle otherwise */
+}
+table.gfc-sponsor-item td h3 {
+    margin-top: 2em; /* aligns better with logos, many have white space in them */
 }
 /* improve the link styles */
 
