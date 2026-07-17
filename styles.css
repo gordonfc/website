@@ -34,15 +34,10 @@ table.gfc-secret-table-item td {
     vertical-align:top; /* seems to be middle otherwise */
 }
 /* gg pass in gg page only */
-#pnlSections>.contentSection>.contentFragment table.gfc-gg-pass {
-    background: #0084ff26;
-}
-#pnlSections>.contentSection>.contentFragment table td.gfc-gg-pass {
-    width:360px;
-}
 /* flex version */
 .gfc-gg-row {
 	background: #0084ff26;
+	padding: 16px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
