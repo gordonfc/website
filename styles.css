@@ -34,7 +34,7 @@ table.gfc-secret-table-item td {
     vertical-align:top; /* seems to be middle otherwise */
 }
 /* gg pass in gg page only */
-table.gfc-secret-table-item td.gfc-gg-pass {
+#pnlSections>.contentSection>.contentFragment table td.gfc-gg-pass {
     width:360px;
 }
 /* improve the link styles */
